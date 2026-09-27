@@ -70,7 +70,7 @@ A secure RESTful API built with **Node.js**, **Express**, **MongoDB**, **JWT (Ac
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   └── index.html
-├── .env.example
+├── vercel.json
 ├── README.md
 └── package.json
 ```
@@ -79,7 +79,7 @@ A secure RESTful API built with **Node.js**, **Express**, **MongoDB**, **JWT (Ac
 
 ## 🛠️ Environment Variables Setup
 
-Create a `.env` file inside the `server/` directory (or use `.env.example` as a template):
+Create a `.env` file inside the `server/` directory:
 
 ```env
 PORT=5000
